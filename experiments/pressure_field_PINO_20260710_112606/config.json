@@ -1,0 +1,21 @@
+{
+    "N_mesh": 128,
+    "epochs": 3000,
+    "learning_rate": 0.0001,
+    "modes1": 32,
+    "modes2": 32,
+    "hidden_list": [
+        64,
+        64,
+        64
+    ],
+    "lambda_r": 1.0,
+    "lambda_d": 0.0,
+    "optimizer": "Adam",
+    "scheduler": "<torch.optim.lr_scheduler.StepLR object at 0x000001EC61A27070>",
+    "problem": "PINO for pressure_field",
+    "mu_values": [
+        2,
+        10
+    ]
+}
