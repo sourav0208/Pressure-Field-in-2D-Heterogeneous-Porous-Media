@@ -1,0 +1,5 @@
+
+# PyTorch model checkpoints
+*.pt
+*.pth
+experiments/**/checkpoints/
